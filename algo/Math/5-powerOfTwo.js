@@ -15,7 +15,7 @@ function powerOfTwo(n) {
   if (n < 1) return false;
   return (n & (n - 1)) === 0;
 }
-
+// inputs
 console.log(powerOfTwo(8));
 console.log(powerOfTwo(2));
 console.log(powerOfTwo(16));

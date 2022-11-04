@@ -14,5 +14,5 @@ function differenceOfTwo(arr) {
   }
   return result;
 }
-
+// Inputs
 console.log(differenceOfTwo([1, 7, 5, 9, 2, 12, 3]));

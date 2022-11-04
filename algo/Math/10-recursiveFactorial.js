@@ -5,7 +5,6 @@ function recursiveFactorail(n) {
   return n * recursiveFactorail(n - 1);
 }
 
-// 1*2*3*4
-
+// Inputs
 console.log(recursiveFactorail(4));
 console.log(recursiveFactorail(5));

@@ -11,9 +11,10 @@ function powerOfTwo(n) {
     return current;
   }
 }
-// powerOfTwo(1);
-// powerOfTwo(2);
-// powerOfTwo(3);
-// powerOfTwo(4);
+// Inputs
+powerOfTwo(1);
+powerOfTwo(2);
+powerOfTwo(3);
+powerOfTwo(4);
 
 powerOfTwo(50);
