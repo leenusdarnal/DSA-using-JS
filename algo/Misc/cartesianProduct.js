@@ -8,4 +8,5 @@ function cartesianProduct(arrA, arrB) {
   return product;
 }
 
+// Inputs
 console.log(cartesianProduct([1, 2], [3, 4, 5]));

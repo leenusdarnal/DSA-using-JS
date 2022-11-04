@@ -6,7 +6,7 @@ function linearSearch(arr, target) {
   }
   return -1;
 }
-
+// inputs
 console.log(linearSearch([-5, 2, 10, 4, 6], 6));
 console.log(linearSearch([-5, 2, 10, 4, 6], -2));
 console.log(linearSearch([-5, 2, 10, 4, 6], -5));

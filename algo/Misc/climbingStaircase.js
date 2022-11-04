@@ -6,7 +6,7 @@ function climbingStaircase(totalSteps) {
 
   return NumberofWays[totalSteps - 1];
 }
-
+// Inputs
 console.log(climbingStaircase(1));
 console.log(climbingStaircase(2));
 console.log(climbingStaircase(3));

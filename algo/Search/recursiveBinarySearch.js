@@ -14,7 +14,7 @@ function recursivebinarySearch(arr, target, first = 0, last = arr.length - 1) {
   }
   return recursivebinarySearch(arr, target, first, last);
 }
-
+// inputs
 console.log(recursivebinarySearch([-5, 2, 4, 6, 10], 10));
 console.log(recursivebinarySearch([-5, 2, 4, 6, 10], 6));
 console.log(recursivebinarySearch([-5, 2, 4, 6, 10], 20));

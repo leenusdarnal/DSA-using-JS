@@ -13,4 +13,5 @@ function tower(disks, source, Intermediate, destination) {
   tower(disks - 1, Intermediate, source, destination);
 }
 
+// Inputs
 tower(3, 'A', 'B', 'C');
