@@ -21,4 +21,27 @@ const MaxSubArrary = (arr) => {
   return maxGlobal
 }
 
+// to find the indices for the start and end of the maximum sub array
+// const MaxSubArray = (arr) => {
+//   let currentMax = arr[0]
+//   let maxGlobal = arr[0]
+//   let start = 0
+//   let end = 0
+//   let tempStart = 0
+//   for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] > currentMax + arr[i]) {
+//       currentMax = arr[i]
+//       tempStart = i
+//     } else {
+//       currentMax = currentMax + arr[i]
+//     }
+//     if (currentMax > maxGlobal) {
+//       maxGlobal = currentMax
+//       start = tempStart
+//       end = i
+//     }
+//   }
+//   return [maxGlobal, start, end]
+// }
+
 console.log(MaxSubArrary([-2, 3, 2, -1]))
