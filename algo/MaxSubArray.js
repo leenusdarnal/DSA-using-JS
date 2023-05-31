@@ -21,6 +21,31 @@ const MaxSubArrary = (arr) => {
   return maxGlobal
 }
 
+//this find the max Sub array Sum with the subarray
+/*function maxSubArray(array) {
+  let subArray = [array[0]]
+  let maxSubArray = [array[0]]
+  let maxSoFar = array[0]
+  let currentMax = array[0]
+  for (let i = 1; i < array.length; i++) {
+    if (array[i] > currentMax + array[i]) {
+      currentMax = array[i]
+      subArray = [array[i]]
+    } else {
+      currentMax = array[i] + currentMax
+      subArray.push(array[i])
+    }
+    if (currentMax > maxSoFar) {
+      maxSoFar = currentMax
+      maxSubArray = [...subArray]
+    }
+  }
+
+  return { maxSum: maxSoFar, maxSubArray: maxSubArray }
+}
+
+console.log(maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]))*/
+
 // to find the indices for the start and end of the maximum sub array
 // const MaxSubArray = (arr) => {
 //   let currentMax = arr[0]
